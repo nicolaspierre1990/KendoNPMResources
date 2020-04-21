@@ -1,0 +1,31 @@
+{
+  "name": "teleriknpmresources",
+  "version": "1.0.0",
+  "description": "",
+  "author": "",
+  "license": "ISC",
+  "scripts": {
+    "start": "webpack --config webpack.config.js --watch --progress --profile",
+    "build": "webpack --config webpack.config.js --progress --profile",
+    "prod": "webpack --env.NODE_ENV=production --config webpack.config.js --progress"
+  },
+  "devDependencies": {
+    "webpack": "^4.42.1",
+    "webpack-cli": "^3.3.11"
+  },
+  "dependencies": {
+    "@fortawesome/fontawesome-free": "^5.13.0",
+    "@progress/kendo-theme-bootstrap": "^4.15.0",
+    "@progress/kendo-ui": "^2020.1.406",
+    "bootstrap": "^4.4.1",
+    "copy-webpack-plugin": "^5.1.1",
+    "css-loader": "^3.5.2",
+    "font-awesome": "^4.7.0",
+    "jquery": "^1.12.4",
+    "jquery-ajax-unobtrusive": "^3.2.6",
+    "mini-css-extract-plugin": "^0.9.0",
+    "sass": "^1.26.3",
+    "sass-loader": "^8.0.2",
+    "webpack-fix-style-only-entries": "^0.4.0"
+  }
+}
