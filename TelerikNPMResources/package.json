@@ -21,7 +21,7 @@
     "copy-webpack-plugin": "^5.1.1",
     "css-loader": "^3.5.2",
     "font-awesome": "^4.7.0",
-    "jquery": "^1.12.4",
+    "jquery": "^3.4.0",
     "jquery-ajax-unobtrusive": "^3.2.6",
     "mini-css-extract-plugin": "^0.9.0",
     "sass": "^1.26.3",
