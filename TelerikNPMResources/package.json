@@ -10,22 +10,22 @@
     "prod": "webpack --env.NODE_ENV=production --config webpack.config.js --progress"
   },
   "devDependencies": {
-    "webpack": "^4.42.1",
-    "webpack-cli": "^3.3.11"
+    "webpack": "^5.75.0",
+    "webpack-cli": "^5.0.1"
   },
   "dependencies": {
     "@fortawesome/fontawesome-free": "^5.13.0",
     "@progress/kendo-theme-bootstrap": "^4.15.0",
     "@progress/kendo-ui": "^2020.1.406",
     "bootstrap": "^4.4.1",
-    "copy-webpack-plugin": "^5.1.1",
-    "css-loader": "^3.5.2",
+    "copy-webpack-plugin": "^11.0.0",
+    "css-loader": "^6.7.3",
     "font-awesome": "^4.7.0",
     "jquery": "^1.12.4",
     "jquery-ajax-unobtrusive": "^3.2.6",
-    "mini-css-extract-plugin": "^0.9.0",
+    "mini-css-extract-plugin": "^2.7.2",
     "sass": "^1.26.3",
-    "sass-loader": "^8.0.2",
+    "sass-loader": "^13.2.0",
     "webpack-fix-style-only-entries": "^0.4.0"
   }
 }
